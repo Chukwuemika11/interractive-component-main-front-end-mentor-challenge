@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Overpass', sans-serif;
+}
+
+header{
+    padding: 30px 80px;
+}
+
+.round-box{
+    margin: 50px auto;
+    width: 320px;
+    height: fit-content;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.center-svg{
+    margin: 15px 50px;
+}
+
+.shift-p{
+    margin-top: 12px;
+    background-color: hsla(216, 12%, 54%, 0.345);
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    border-radius: 17px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank{
+    margin-top: 10px;    
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.lastP{
+    text-align: center;
+
+}
+
+.bg-color{
+    color: hsl(221, 100%, 96%);
+}
+
+
+@media (max-width: 477px){
+    header{
+    max-width: 375px; /* Set a maximum width for screens wider than 375px */
+    padding: 0px;
+    }
+
+    .round-box{
+        margin: 95px auto;
+}
+}
+
+.dkd{
+    color: hsl(217, 12%, 63%);
+    color:  hsl(216, 12%, 54%);
+    color: hsl(213, 19%, 18%);
+    color: hsl(216, 12%, 8%) ;
+}
